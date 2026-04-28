@@ -75,12 +75,95 @@ Recibir alerta de intrusión).
           - Apuntarse a las clases
 #### **Parte B (Actividades):**   
 1. Creación de 3 Clases, una origen(Socio), una destino(Pista) y una clase intermedia(Validación)
-     -   **Clase Socio:**
+     - **Clase Socio:**
          - Elegir fecha y hora para reservar una pista
      - **Clase Validación:**
          - Revisar si tiene pagos pendientes o no independientemente del resultado, que es un boolean, pasa a la clase Pista
      - **Clase Pista:**
-         - La clase pista revisa que respueta le pasa la clase validacion, si es true, la reserva esta confirmada, en caso contrario denegada        
-    
+         - La clase pista revisa que respueta le pasa la clase validacion, si es true, la reserva esta confirmada, en caso contrario denegada
+## Actividad 2: Máquina Expendedora de Billetes de Metro (Actividades y Estados)     
+#### **Parte A (Actividades):**
+1. Creación de dos objetos/clases **cliente** y **maquina de billetes**
+     - **Clase cliente:**
+         - Puede eligir el destino y comprar el tiquet con dos metodos, con tarjeta o con efectivo
+     - **Clase maquina de billetes:**
+         - Si el cliente paga con tarjeta, con el banco verficia el PIN. Si es correcto saca el billete, en caso contrario no lo saca y pide que lo intente otra vez
+         - Si el cliente paga con efectivo, saca el billete sin problema
+#### **Parte B (Estados):**
+1. Clase **billete** tiene como atributos id, precio y destino y dos metodos *emitir* y *usar*
+     - Cuando se emite un billete pasa al estado *comprobando*, luego a estado activo/validado
+     - Cuando se usa el billete pasa al estado intermedio *usando* y luego a *agotado*
+## Actividad 3: Sistema de Control de una Alarma Inteligente
 
+#### Parte A (Estados)
 
+1. Creación del objeto/clase Sistema de Alarma
+2. Clase Sistema de Alarma
+Puede encontrarse en cinco estados:
+- **Desarmado** → estado inicial del sistema.
+- **Armado** → el sistema vigila sensores y accesos.
+- **En Espera** → se activa una cuenta atrás tras detectar movimiento.
+- **Alarma Sonando** → se dispara la alarma y se avisa a la policía.
+- **Mantenimiento** → modo especial para revisión técnica.
+### Funcionamiento de estados
+- Si el propietario arma el sistema:
+  - Desarmado → Armado
+- Si estando armado se detecta movimiento:
+  - Armado → En Espera
+  - Acción:
+    - iniciar_temporizador(30s)
+
+- Durante En Espera:
+  - Si se introduce código correcto:
+    - En Espera → Desarmado
+  - Si termina el tiempo:
+    - En Espera → Alarma Sonando
+
+- Al entrar en **Alarma Sonando**:
+  - activar_sirena()
+  - llamar_policia()
+
+- Si se introduce código válido:
+  - Alarma Sonando → Desarmado
+
+- Desde cualquier estado:
+  - Si el técnico introduce llave especial:
+    - Cualquier estado → Mantenimiento
+
+- Cuando termina la revisión:
+  - Mantenimiento → Desarmado
+## Parte B (Casos de Uso)
+- Actores
+    - Propietario Puede:
+        - Armar sistema
+        - Desarmar sistema
+        - Configurar sensores
+        - Introducir código durante espera
+    - Sensor de Movimiento Puede:
+        - Detectar intrusión
+        - Enviar alerta al sistema
+    - Central de Policía Puede:
+        - Recibir alerta de intrusión
+        - Responder ante alarma activada
+    -Técnico Puede:
+        - Activar modo mantenimiento
+        - Revisar componentes
+        - Configurar sensores
+- Casos de Uso Principales
+    - Armar sistema
+**Actor principal:** Propietario
+Permite activar la vigilancia y pasar al estado **Armado**.
+    - Desarmar sistema
+**Actor principal:** Propietario
+Introduce código para desactivar el sistema.
+    - Configurar sensores
+**Actores:** Propietario / Técnico
+Permite ajustar sensores y parámetros.
+    - Recibir alerta de intrusión
+**Actores:** Sensor de Movimiento y Central de Policía
+Si se detecta una intrusión y no se introduce el código:
+- Se activa la alarma
+- Se avisa a la policía
+    - Modo mantenimiento
+**Actor principal:** Técnico
+Permite revisar el sistema sin activar alarmas.
