@@ -1,4 +1,4 @@
-# Actividad 07 Entornos de Desarollo
+# Actividad 07 Entornos de Desarollo (Descripción de las actividades)
 ----------------------------------------------------------------------------------------------------------------------------
 ## Actividad 1: Sistema de Gestión de un Centro Deportivo (Casos de Uso y Actividades)
 
@@ -49,3 +49,38 @@ Sonando, la acción es llamar_policia()).
 - Define los actores (Propietario, Sensor de Movimiento, Central de Policía, Técnico).
 - Identifica los casos de uso principales (Armar sistema, Desarmar sistema, Configurar sensores,
 Recibir alerta de intrusión).
+
+
+# Actividad 07 Entornos de Desarollo (Pasos hechos a lo largo de las actividades)
+----------------------------------------------------------------------------------------------------------------------------
+## Actividad 1: Sistema de Gestión de un Centro Deportivo (Casos de Uso y Actividades)
+#### **Parte A (Casos de Uso):**
+1. Creación de "actor" **socio**
+2. Creación de "actor" **administrador**
+3. Creación de casos de uso "origen" y "destino" que han sido:
+    - **Casos uso Origen**
+      - Actor **Socio**  
+          - Identificación
+          - Revisión de casos pendientes
+          - Apuntarse a las clases
+      - Actor **Administrador**
+          - Dar alta a la clase
+          - Gestion de pago de un socio
+    - **Casos uso Destino**
+      - Actor **Socio**   
+          - Reservar pista
+          - Contratar un seguro
+      - Actor **Administrador**
+          - Revisión de casos pendientes
+          - Apuntarse a las clases
+#### **Parte B (Actividades):**   
+1. Creación de 3 Clases, una origen(Socio), una destino(Pista) y una clase intermedia(Validación)
+     -   **Clase Socio:**
+         - Elegir fecha y hora para reservar una pista
+     - **Clase Validación:**
+         - Revisar si tiene pagos pendientes o no independientemente del resultado, que es un boolean, pasa a la clase Pista
+     - **Clase Pista:**
+         - La clase pista revisa que respueta le pasa la clase validacion, si es true, la reserva esta confirmada, en caso contrario denegada        
+    
+
+
