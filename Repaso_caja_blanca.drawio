@@ -1,0 +1,361 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Página-1" id="6ARukEQIRP1lA142Jk7i">
+    <mxGraphModel dx="403" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-1" value="inicio" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="10" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-2" value="cliente: VIP" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-3" value="cliente:REGULAR" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="90" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="40" as="sourcePoint" />
+            <mxPoint x="220" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.456;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TCg-wdtWd2LanPRADEMQ-1" target="TCg-wdtWd2LanPRADEMQ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="50" as="sourcePoint" />
+            <mxPoint x="320" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-7" value="descuento: %15" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="190" y="200" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TCg-wdtWd2LanPRADEMQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="140" as="sourcePoint" />
+            <mxPoint x="215" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-9" value="edad &amp;gt; 60" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="189" y="312" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TCg-wdtWd2LanPRADEMQ-7" target="TCg-wdtWd2LanPRADEMQ-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="214" y="251" as="sourcePoint" />
+            <mxPoint x="264" y="201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="189" y="340" as="sourcePoint" />
+            <mxPoint x="159" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-14" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TCg-wdtWd2LanPRADEMQ-11">
+          <mxGeometry x="-0.2143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="239" y="339" as="sourcePoint" />
+            <mxPoint x="269" y="369" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-15" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TCg-wdtWd2LanPRADEMQ-13">
+          <mxGeometry x="-0.2381" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-16" value="descuento: 5%" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="370" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-17" value="descuento: 15%" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="246" y="369" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-18" value="importe &amp;gt; 200" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="200" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="230" as="sourcePoint" />
+            <mxPoint x="320" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-20" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TCg-wdtWd2LanPRADEMQ-19">
+          <mxGeometry x="-0.2143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="374.76" y="140" as="sourcePoint" />
+            <mxPoint x="374.76" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="430" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-23" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TCg-wdtWd2LanPRADEMQ-22">
+          <mxGeometry x="-0.2381" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-24" value="descuento: %10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="294" y="260" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-25" value="importe &amp;gt; 100" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="408" y="260" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="408" y="290" as="sourcePoint" />
+            <mxPoint x="378" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-27" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TCg-wdtWd2LanPRADEMQ-26">
+          <mxGeometry x="-0.2143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="458" y="290" as="sourcePoint" />
+            <mxPoint x="488" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-29" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TCg-wdtWd2LanPRADEMQ-28">
+          <mxGeometry x="-0.2381" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-30" value="descuento: %5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-31" value="PrimeraCompra" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470" y="319" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.032;entryY=0.348;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TCg-wdtWd2LanPRADEMQ-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="398" y="337.40000000000003" as="sourcePoint" />
+            <mxPoint x="468" y="336.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-34" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TCg-wdtWd2LanPRADEMQ-33">
+          <mxGeometry x="-0.2143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.54;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TCg-wdtWd2LanPRADEMQ-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="494" y="369" as="sourcePoint" />
+            <mxPoint x="494" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-36" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TCg-wdtWd2LanPRADEMQ-35">
+          <mxGeometry x="-0.2381" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-37" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="239" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-38" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-39" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-40" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="216" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-41" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-42" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="216" y="289" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-43" value="7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-44" value="8" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="239" y="350" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-45" value="9" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="240" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-46" value="10" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="423" y="240" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-47" value="11" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="344" y="300" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-48" value="12" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-49" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22PrimeraCompra%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22470%22%20y%3D%22319%22%20width%3D%2250%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="467" y="560" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-51" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;im&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="399" y="375" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-52" value="importe &amp;gt; 50" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="394" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="400" as="sourcePoint" />
+            <mxPoint x="369" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-54" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TCg-wdtWd2LanPRADEMQ-53">
+          <mxGeometry x="-0.2143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423" y="425" as="sourcePoint" />
+            <mxPoint x="423" y="466" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-56" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TCg-wdtWd2LanPRADEMQ-55">
+          <mxGeometry x="-0.2381" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-57" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;de&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="398" y="466" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-58" value="descuento: 5%" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="476" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-59" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;de&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="335" y="429" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-60" value="recargo: 2%" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="439" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-61" value="13" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="540" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-62" value="14" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="408" y="355" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-63" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="479" as="sourcePoint" />
+            <mxPoint x="470" y="572" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-64" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.27;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TCg-wdtWd2LanPRADEMQ-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="442" y="508" as="sourcePoint" />
+            <mxPoint x="549" y="608" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-65" value="formula" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="462" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-66" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22PrimeraCompra%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22470%22%20y%3D%22319%22%20width%3D%2250%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="467" y="690" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-67" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="TCg-wdtWd2LanPRADEMQ-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="610" as="sourcePoint" />
+            <mxPoint x="540" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-68" value="precioFinal&amp;lt; 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="462" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-69" value="precioFinal = 0" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="412" y="760" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-70" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="730" as="sourcePoint" />
+            <mxPoint x="440" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-71" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TCg-wdtWd2LanPRADEMQ-70">
+          <mxGeometry x="-0.2143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-72" value="return precioFinal" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="522" y="760" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-75" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="512" y="730" as="sourcePoint" />
+            <mxPoint x="542" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-76" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TCg-wdtWd2LanPRADEMQ-75">
+          <mxGeometry x="-0.2381" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-77" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="TCg-wdtWd2LanPRADEMQ-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="462" y="785" as="sourcePoint" />
+            <mxPoint x="432" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-79" value="15" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="409" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-80" value="16" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="412" y="446" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-81" value="17" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="454" y="670" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-82" value="18" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="404" y="740" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-83" value="19" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="532" y="740" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-84" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269" y="419" as="sourcePoint" />
+            <mxPoint x="466" y="586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-85" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.004;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TCg-wdtWd2LanPRADEMQ-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="398.65" as="sourcePoint" />
+            <mxPoint x="265.2" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-86" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="345" y="285" as="sourcePoint" />
+            <mxPoint x="471" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-87" value="FIN" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="522" y="850" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-88" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="TCg-wdtWd2LanPRADEMQ-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="547" y="811" as="sourcePoint" />
+            <mxPoint x="597" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TCg-wdtWd2LanPRADEMQ-89" value="20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="542" y="830" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
